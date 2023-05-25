@@ -181,3 +181,134 @@ h5{
     width: 100%;
     height: 100%;
 }
+
+.aclaraciones{
+    display: grid;
+    grid-template-columns: repeat(3,);
+    grid-template-rows: repeat(3,);
+    grid-template-areas:
+    "envios cuotas cambios"
+    ;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: repeat(12,0fr);
+    grid-template-rows: repeat(12,0fr);
+}
+
+@media (max-width:1024px){
+    .logo{
+        display: flex;
+        width: 200px;
+        height: 100px;
+    }
+    h1{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+    }
+    .lista-1{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    list-style: none;
+    }
+    .mochilas{
+        display: grid;
+        grid-template-columns: repeat(4);
+        grid-template-rows: repeat(4);
+        grid-template-areas:
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        ;
+    }
+    .aclaraciones{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    
+    }
+
+}
+@media (max-width: 768px){
+    .logo{
+        display: flex;
+        width: 150px;
+        height: 100px;
+    }
+    h1{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+    }
+    .lista-1{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    list-style: none;
+    }
+    .mochilas{
+        display: grid;
+        grid-template-columns: repeat(4);
+        grid-template-rows: repeat(4);
+        grid-template-areas:
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        ;
+    }
+    .aclaraciones{
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        font-size: small;
+    }
+}
+@media(max-width:425px){
+    .logo{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
+    h1{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+    }
+    .lista-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mochilas{
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(4);
+        grid-template-rows: repeat(4);
+        grid-template-areas:
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        ;
+    }
+    .aclaraciones{
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        font-size: smaller;
+    }
+}
