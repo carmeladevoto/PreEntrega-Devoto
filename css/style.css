@@ -1,0 +1,183 @@
+*{ 
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+.logo{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+.header{
+    background-color: green;
+}
+.foto-top{
+    display: flex;
+    width: 1024;
+    height: 500;
+}
+.h1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+}
+.lista-1{
+display: flex;
+justify-content: right;
+gap: 20px;
+list-style: none;
+}
+
+.foto-login{
+    width: 35px;
+    height: 35px;
+}
+
+.carrito{
+    width: 35px;
+    height: 35px;
+}
+
+.imagen-arriba{
+    object-fit: scale-down;
+}
+
+.mochilas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.mini{
+    width: 300px;
+    height: 300px;
+}
+.brown{
+    width: 300px;
+    height: 300px;
+}
+.menta{
+    width: 300px;
+    height: 300px;
+}
+.h5{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.best-seller{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.be-se{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.blancos{
+    width: 400px;
+    height: 400px;
+}
+.verdes{
+    width: 400px;
+    height: 400px;
+}
+
+.aclaraciones{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.redes{
+    display: flex;
+    justify-content: left;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-formulario{
+    display: flex;
+    width: 50px;
+    height: 25px;
+}
+
+.fotoformulario{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 400px;
+}
+
+.negra{
+    width: 300px;
+    height: 300px;
+}
+
+.sobre-jansport{
+    display: flex;
+    justify-content: center;
+}
+
+.noticia-1{
+    text-indent: 20px;
+    word-spacing: 10px;
+    line-height: 16px;
+}
+
+h5{
+    text-decoration: line-through;
+}
+
+.logo-header{
+    display: grid;
+    
+}
+
+.mochilas{
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-template-rows: repeat(4);
+    grid-template-areas:
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    ;
+}
+.mochilas img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
