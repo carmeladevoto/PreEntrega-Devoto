@@ -183,18 +183,24 @@ h5{
 }
 
 .aclaraciones{
-    display: grid;
-    grid-template-columns: repeat(3,);
-    grid-template-rows: repeat(3,);
-    grid-template-areas:
-    "envios cuotas cambios"
-    ;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
 }
 
 .redes{
     display: grid;
     grid-template-columns: repeat(12,0fr);
     grid-template-rows: repeat(12,0fr);
+}
+
+.footer.sales{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(3);
+    grid-template-areas:
+    "mail suscribite contacto"
 }
 
 @media (max-width:1024px){
@@ -232,10 +238,15 @@ h5{
         display: flex;
         justify-content: space-between;
         gap: 100px;
-    
     }
-
-}
+    .footer.sales{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+        grid-template-areas:
+        "mail suscribite contacto"
+    }
+    }
 @media (max-width: 768px){
     .logo{
         display: flex;
@@ -273,8 +284,15 @@ h5{
         gap: 100px;
         font-size: small;
     }
+    .footer.sales{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+        grid-template-areas:
+        "mail suscribite contacto"
+    }
 }
-@media(max-width:425px){
+@media(max-width:620px){
     .logo{
         display: flex;
         width: 100px;
@@ -311,4 +329,59 @@ h5{
         gap: 100px;
         font-size: smaller;
     }
+    .footer.sales{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+        grid-template-areas:
+        "mail suscribite contacto"
+    }
+}
+@media(max-width:425px){
+    .logo{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
+    h1{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+    }
+    .lista-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mochilas{
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(4);
+        grid-template-rows: repeat(4);
+        grid-template-areas:
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        "img1 img2 img3 img4"
+        ;
+    }
+    .aclaraciones{
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        font-size: x-small;
+    }
+    .footer.sales{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+        grid-template-areas:
+        "mail suscribite contacto"
+        "mail suscribite contacto"
+        "mail suscribite contacto"
+    }
+}
 }
