@@ -1,0 +1,35 @@
+.logo{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+.header{
+    width: 100%;
+    background-color: green;
+    .foto-top{
+        display: flex;
+        width: 1024;
+        height: 500;
+    }
+    .h1{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: green;
+        .lista-1{
+            display: flex;
+            justify-content: right;
+            gap: 20px;
+            list-style: none;
+            }
+    }
+    .foto-login{
+        width: 35px;
+        height: 35px;
+    }
+.carrito{
+    width: 35px;
+    height: 35px;
+}
+}

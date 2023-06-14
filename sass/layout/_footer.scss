@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .footer.sales{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+        grid-template-areas:
+        "mail suscribite contacto"
+        "mail suscribite contacto"
+        "mail suscribite contacto"
+    }
+    .redes{
+        display: flex;
+        justify-content: left;
+    }
+    .instagram{
+        width: 50px;
+        height: 50px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+

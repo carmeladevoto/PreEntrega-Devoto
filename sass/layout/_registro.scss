@@ -1,0 +1,19 @@
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo-formulario{
+        display: flex;
+        width: 50px;
+        height: 25px;
+    }
+    .fotoformulario{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        width: 400px;
+    }
+}
+
+
+

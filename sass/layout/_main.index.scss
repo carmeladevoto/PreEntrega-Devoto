@@ -1,0 +1,64 @@
+main{
+    .imagen-arriba{
+        object-fit: scale-down;
+    }
+    .mochilas{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .mini{
+        width: 300px;
+        height: 300px;
+    }
+    .brown{
+        width: 300px;
+        height: 300px;
+    }
+    .menta{
+        width: 300px;
+        height: 300px;
+    }
+    .h5{
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+    }
+    .best-seller{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .be-se{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .blancos{
+        width: 400px;
+        height: 400px;
+    }
+    .verdes{
+        width: 400px;
+        height: 400px;
+    }
+    .aclaraciones{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
