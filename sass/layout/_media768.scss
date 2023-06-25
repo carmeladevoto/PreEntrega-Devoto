@@ -9,7 +9,7 @@
         height: 40px;
         display: flex;
         justify-content: center;
-        background-color: green;
+        background-color: $color-principal;
     }
     .lista-1{
     display: flex;
@@ -29,7 +29,7 @@
         ;
     }
     .aclaraciones{
-        background-color: beige;
+        background-color: $color-aclaraciones;
         display: flex;
         justify-content: space-between;
         gap: 100px;
